@@ -1,0 +1,23 @@
+{
+  "name": "hyper-captain-sweetheart",
+  "version": "1.0.0",
+  "description": "tuff but sweet hyper theme",
+  "license": "MIT",
+  "repository": "mashaal/hyper-captain-sweetheart",
+  "author": {
+    "name": "omar mashaal",
+    "email": "omar@teacups.io",
+    "url": "teacups.io"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hyper",
+    "hyper-theme",
+    "terminal",
+    "term",
+    "theme",
+    "captain-sweetheart"
+  ]
+}
