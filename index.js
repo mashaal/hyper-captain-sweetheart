@@ -31,17 +31,17 @@ exports.decorateConfig = config => Object.assign({}, config, {
     lightWhite: foregroundColor
   },
   css: `
-		${config.css}
-		.tab_active:before {
-			border-color: rgba(133, 107, 206, 0.25);
-		}
-		.term_fit:not(.term_term) {
-			opacity: 0.6;
-		}
-		.term_fit.term_active {
-			opacity: 1;
-			transition: opacity 0.12s ease-in-out;
-			will-change: opacity;
-		}
-	`
+    ${config.css}
+    .tab_tab:not(.tab_active) {
+      color: hsl(0, 0%, 50%);
+    }
+    .term_fit:not(.term_term) {
+      opacity: 0.5;
+    }
+    .term_fit.term_active {
+      opacity: 1;
+      transition: opacity 0.12s ease-in-out;
+      will-change: opacity;
+    }
+  `
 })
